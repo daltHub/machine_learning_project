@@ -1,0 +1,12 @@
+In ridge_and_lasso.ipynb
+    Try using trained models (ridge model is best) on other datasets to see if accuracy carries over.
+
+In mlp_regression.ipynb
+    Start it off. Look for examples online.
+
+In time_series_regression.ipynb
+    Start it off. Look for examples online.
+    look at notes.
+
+Add strings to rest of functions 
+Best for sharing     

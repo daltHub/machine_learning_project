@@ -15,7 +15,7 @@ def calculate_mse(pred, true):
 
     losses = mean_squared_error(y_true=true, y_pred=pred)
     average_loss = mean(losses)
-    print(f"average loss = {average_loss}")
+    # print(f"average loss = {average_loss}")
     return average_loss
 
 def dummy(X_features, y):
