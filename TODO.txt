@@ -1,12 +1,15 @@
 In ridge_and_lasso.ipynb
     Try using trained models (ridge model is best) on other datasets to see if accuracy carries over.
+    Look at parameters for ridge to see relationships
 
 In mlp_regression.ipynb
     Start it off. Look for examples online.
+    w/o time series should be pretty basic
+    after time series regression we can do time series mlp_regression
 
 In time_series_regression.ipynb
     Start it off. Look for examples online.
     look at notes.
 
-Add strings to rest of functions 
+Add doc strings to rest of functions 
 Best for sharing     
