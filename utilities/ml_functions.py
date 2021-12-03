@@ -5,7 +5,7 @@ from sklearn import linear_model
 import numpy as np
 from sklearn.model_selection import cross_val_score, KFold
 import matplotlib.pyplot as plt
-
+from sklearn.tree import DecisionTreeRegressor
 def test():
     """Test function"""
     print("Imported Correctly")
@@ -281,3 +281,47 @@ def Kfold_for_C_ridge(X_features, y_features, C_range):
     plt.title('K-fold Error for varied C')
     # x = np.arange(len(error_array))
     # plt.bar(x, C_range, error_array)
+
+
+
+def train_decision_tree(input_features, target_feature):
+    """[summary]
+
+    Parameters
+    ----------
+    input_features : [type]
+        [description]
+    target_feature : [type]
+        [description]
+
+    Returns
+    -------
+    [type]
+        [description]
+    """
+    model = DecisionTreeRegressor(criterion='mse', splitter='best', max_features= 'sqrt')
+    model.fit(input_features, target_feature)
+    # print('coeffs =',model.coef_)
+    return model
+
+def train_decision_tree_for_poly(input_features, target_feature, poly_array):
+    """[summary]
+
+    Parameters
+    ----------
+    input_features : [type]
+        [description]
+    target_feature : [type]
+        [description]
+    poly_array : [type]
+        [description]
+
+    Returns
+    -------
+    [type]
+        [description]
+    """
+    model_array = np.ndarray(shape=(len(poly_array)), dtype= DecisionTreeRegressor )
+    for i in range(len(poly_array)):
+        model_array[i] = train_decision_tree(input_features, target_feature)
+    return model_array
