@@ -1,12 +1,6 @@
 In ridge_and_lasso.ipynb
     Try using trained models (ridge model is best) on other datasets to see if accuracy carries over.
-    Get coeffs to see what is most impotant
-    get training mse and compare to test mse to tell if overfitting for all three
-    maybe try lower dimensional data
-
-In dt_regression.ipynb
-    predict/pyplot
-    try for higher dimensions
+    Look at parameters for ridge to see relationships
 
 In mlp_regression.ipynb
     Start it off. Look for examples online.
@@ -14,15 +8,8 @@ In mlp_regression.ipynb
     after time series regression we can do time series mlp_regression
 
 In time_series_regression.ipynb
-    Experiments are described
-    do experiments - make a good function to do it easily
-    plot differences in run time and mse and check for overfitting
-    Dummy = mean and also try another
-    use ridge and potentially decision tree
-    do not use lasso
-    choose best ridge c for every type? ok
-
-    estd. time - 4hrs - lower scope if necessary
+    Start it off. Look for examples online.
+    look at notes.
 
 Add doc strings to rest of functions 
 Best for sharing     
