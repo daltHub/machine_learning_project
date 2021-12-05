@@ -1,5 +1,6 @@
 In ridge_and_lasso.ipynb
-    labelled 
+    labelled figures
+    look at parameters to see what's important
 
 In mlp_regression.ipynb
     Start it off. Look for examples online.
@@ -10,6 +11,7 @@ In time_series_regression.ipynb
     look at parameters for 24 hr
     add dummy regressor
     add second regressor (maybe tree, maybe adaboost, maybe ..., maybe leo's mlp regressor, only for one or 2 instances)
+
 
 
   
