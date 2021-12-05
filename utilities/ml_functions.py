@@ -281,3 +281,37 @@ def Kfold_for_C_ridge(X_features, y_features, C_range):
     plt.title('K-fold Error for varied C')
     # x = np.arange(len(error_array))
     # plt.bar(x, C_range, error_array)
+
+def train_adaboost(X_features:list, y_features:list):
+    """trains an adaboost regressor and returns the fitted model.
+
+    Parameters
+    ----------
+    X_features : list
+        [description]
+    y_features : list
+        [description]
+
+    Returns
+    -------
+    [type]
+        [description]
+    """
+    return X_features
+
+def train_dt_regressor(X_features:list, y_features:list):
+    """trains an adaboost regressor and returns the fitted model.
+
+    Parameters
+    ----------
+    X_features : list
+        [description]
+    y_features : list
+        [description]
+
+    Returns
+    -------
+    [type]
+        [description]
+    """
+    return X_features
