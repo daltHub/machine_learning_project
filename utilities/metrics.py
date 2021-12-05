@@ -4,7 +4,6 @@ This file contains functions that help with evaluating performance of models
 from numpy.lib.function_base import average
 from sklearn.metrics import mean_squared_error
 from sklearn.dummy import DummyRegressor
-import matplotlib
 from numpy import mean
 
 def test():
