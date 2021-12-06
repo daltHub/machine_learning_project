@@ -5,6 +5,7 @@ from sklearn import linear_model
 import numpy as np
 from sklearn.model_selection import cross_val_score, KFold
 import matplotlib.pyplot as plt
+from sklearn import tree
 
 def test():
     """Test function"""
@@ -314,4 +315,6 @@ def train_dt_regressor(X_features:list, y_features:list):
     [type]
         [description]
     """
-    return X_features
+    model = tree.DecisionTreeRegressor()
+    model.fit(X_features, y_features)
+    return model

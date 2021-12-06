@@ -165,9 +165,9 @@ def plot_predictions(training_data, target_feature, test_data, predictions, t):
     ### https://stackoverflow.com/questions/27449109/adding-legend-to-a-surface-plot
     fake2Dline = matplotlib.lines.Line2D([0],[0], linestyle="none", c='orange', marker = 'o')
     # ax.scatter( test_data[:,2], test_data[:,1], predictions, color = 'orange')
-    ax.set_xlabel('X1')
-    ax.set_ylabel('X2')
-    ax.set_zlabel('y')
+    ax.set_xlabel('Wind Speed (Km/h)')
+    ax.set_ylabel('Air Pressure (hPa)')
+    ax.set_zlabel('Wave Height')
     ax.legend([trn, fake2Dline], ['Training Data', 'Predictions'])
     plt.title(t)
 
